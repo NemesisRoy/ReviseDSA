@@ -1,7 +1,15 @@
 {
   "homepage": "https://nemesisroy.github.io/ReviseDSA",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    // Your project dependencies here
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
